@@ -16,7 +16,7 @@ RUN pip install opencv-python
 
 RUN pip install \
 argcomplete>=1.9.4 \
-poetry==1.1.14 \
+# poetry==1.1.14 \
 jupyterlab==3.3.0 \
 accelerate==0.20.3 \
 annotated-types==0.5.0 \
