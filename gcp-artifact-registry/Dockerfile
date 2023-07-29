@@ -8,8 +8,7 @@ FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime
 WORKDIR /code
 
 RUN apt-get -y update
-RUN apt-get install -y --no-install-recommends \
-python3-pip \
+RUN apt-get install -y --no-install-recommends python3-pip
 
 # Install opencv-python
 # Docker may miss some default opencv packages
