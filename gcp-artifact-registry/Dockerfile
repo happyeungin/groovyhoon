@@ -9,10 +9,6 @@ WORKDIR /code
 RUN apt-get -y update
 RUN apt-get install -y --no-install-recommends \
 python3-pip \
-pipx \
-git \
-make \
-jq
 
 # Install opencv-python
 # Docker may miss some default opencv packages
