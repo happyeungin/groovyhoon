@@ -1,3 +1,4 @@
+FROM --platform=linux/amd64 ubuntu:22.04
 FROM python:3.9
 
 # Install pytorch cuda 11.7 from pytorch cuda 11.3 docker image
